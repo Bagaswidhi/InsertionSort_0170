@@ -71,4 +71,5 @@ void display()
 int main()
 {
     input(); // memanggil prosedur input
+    insertionSort(); // memanggil prosedur insertionSort
 }
