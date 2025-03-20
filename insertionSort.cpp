@@ -67,3 +67,8 @@ void display()
     }
     cout << endl; // output baris kosong
 }
+
+int main()
+{
+    input(); // memanggil prosedur input
+}
