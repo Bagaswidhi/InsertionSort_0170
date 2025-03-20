@@ -31,3 +31,23 @@ void input ()
        cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
     }
 }
+
+void insertionSort()
+{// Prosedur insertionSort
+
+    int temp; // membuat variable data temporer atau penyimpanan sementara
+    int j, i; // membuat variable j sebagai penanda
+
+    for (i = 1; i <= n - 1; i++) 
+    {//Step 1
+
+        temp = arr[i]; // Step 2
+        j = i - 1; // Step 3
+        while (j >= 0 && arr[j] > temp) // Step 4
+        {
+            arr[j + 1] = arr[j]; // Step 4a
+            j--; // Step 4b
+        }
+    arr [j + 1] = arr [j]; // Step 5
+    }
+}
